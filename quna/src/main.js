@@ -10,7 +10,12 @@ import fastclick from 'fastclick'
 //引入package中的插件直接输入名字即可，不需。/
 fastclick.attach(document.body)
     //减少移动端点击事件延迟
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
+// require styles
+import 'swiper/dist/css/swiper.css'
+
+Vue.use(VueAwesomeSwiper, /* { default global options } */ )
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

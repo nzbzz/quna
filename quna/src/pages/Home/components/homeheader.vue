@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="hd">
         <div class="header">
             <div class="left" @click="goback()">
                 <i class="icon iconfont icon-fanhui" ></i>
@@ -35,6 +35,10 @@ export default {
 }
 </script>
 <style>
+    .hd{
+        width: 100%;
+        height: .44rem;
+    }
     .header{
         width: 100%;
         height: .44rem;
@@ -46,6 +50,7 @@ export default {
     }
     .left{
         width: .385rem;
+        height: .39rem;
         text-align: center;
         padding-top: 0.05rem;
     }
@@ -74,6 +79,7 @@ export default {
     }
     .right{
         width: .7rem;
+        height: .34rem;
         font-size: .21rem;
         padding-top: .1rem;
         margin-left: .1rem;
