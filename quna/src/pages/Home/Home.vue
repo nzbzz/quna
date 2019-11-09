@@ -3,6 +3,7 @@
         <homeheader :city="city"></homeheader>  
         <homeswiper></homeswiper>
         <homeicon></homeicon>
+        <homehot></homehot>
     </div>
 </template>
 
@@ -10,6 +11,7 @@
 import homeheader from "./components/homeheader"
 import homeswiper from "./components/homeswiper"
 import homeicon from "./components/homeicon"
+import homehot from "./components/homehot"
 export default {
     name:"Home",
     data(){
@@ -20,7 +22,8 @@ export default {
     components:{
         homeheader,
         homeswiper,
-        homeicon
+        homeicon,
+        homehot
     }
 }
 </script>
